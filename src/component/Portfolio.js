@@ -68,11 +68,23 @@ function Portfolio() {
                 <div className="tag">react.js +Github Pages</div>
               </div>
               <div className="link">
-                <div className="test">
+                <div
+                  className="test"
+                  onClick={() => {
+                    window.location.href =
+                      'https://luisliu0211.github.io/luisportfolio/';
+                  }}
+                >
                   <div className="btn">Live Demo</div>
                   <FiArrowRight className="linkIcon" />
                 </div>
-                <div className="test">
+                <div
+                  className="test"
+                  onClick={() => {
+                    window.location.href =
+                      'https://github.com/luisliu0211/luisportfolio';
+                  }}
+                >
                   <div className="btn">Code</div>
                   <FiArrowRight className="linkIcon" />
                 </div>
@@ -97,7 +109,13 @@ function Portfolio() {
                   <div className="btn">Picture Demo</div>
                   <FiArrowRight className="linkIcon" />
                 </div>
-                <div className="test">
+                <div
+                  className="test"
+                  onClick={() => {
+                    window.location.href =
+                      'https://github.com/RainOuO/Team3_OhDogCat';
+                  }}
+                >
                   <div className="btn">Code</div>
                   <FiArrowRight className="linkIcon" />
                 </div>
@@ -121,7 +139,12 @@ function Portfolio() {
                   <div className="btn">Picture Demo</div>
                   <FiArrowRight className="linkIcon" />
                 </div>
-                <div className="test">
+                <div
+                  className="test"
+                  onClick={() => {
+                    alert('尚未建置完成');
+                  }}
+                >
                   <div className="btn">Code</div>
                   <FiArrowRight className="linkIcon" />
                 </div>

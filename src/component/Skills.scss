@@ -120,5 +120,92 @@
         }
       }
     }
+    .skilldetail_Mobile {
+      display: none;
+    }
+  }
+}
+
+@media screen and (max-width: 990px) {
+  .skills {
+    .skillsList {
+      .title {
+        font-size: 2.5rem;
+      }
+      .skilldetail {
+        min-width: 70%;
+        width: 700px;
+        .web {
+          width: 95%;
+          .list {
+            .skillTitle {
+            }
+
+            .hey {
+              .card {
+                .skill {
+                }
+                .rate {
+                  .thumbIcon {
+                  }
+                }
+              }
+            }
+          }
+        }
+        .other {
+          width: 95%;
+          .list {
+            .skillTitle {
+            }
+
+            .hey {
+              .card {
+                .skill {
+                }
+                .rate {
+                  .thumbIcon {
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 768px) {
+  .skills {
+    .skillsList {
+      .title {
+        font-size: 2rem;
+      }
+      .skilldetail {
+        display: none;
+      }
+      .skilldetail_Mobile {
+        height: 70vh;
+        display: block;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        p {
+          margin: -10px;
+
+          font-size: 1.5rem;
+          font-weight: 500;
+        }
+        ul {
+          margin: 10px;
+          padding: 0;
+          list-style-type: none;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          font-size: 1rem;
+        }
+      }
+    }
   }
 }

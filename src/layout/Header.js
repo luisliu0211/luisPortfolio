@@ -98,11 +98,9 @@ function Header() {
           onClick={() => openHandle()}
           className={isOpen ? '' : 'nextIcon'}
         />
-
         <ScrollToTopButton className="up" />
         <ScrollToBottomButton className="down" />
       </div>
-      x
     </>
   );
 }

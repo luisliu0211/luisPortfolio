@@ -151,6 +151,37 @@ function Skills() {
             </div>
           </div>
         </div>
+        <div className="skilldetail_Mobile">
+          <p>Frontend Development</p>
+          <ul>
+            <li>HTML</li>
+            <li>CSS/SCSS</li>
+            <li>Javascript</li>
+            <li>Bootstrap</li>
+            <li>JQuery</li>
+          </ul>
+          <p>Backend Development</p>
+          <ul>
+            <li>PHP</li>
+            <li>Node.js</li>
+            <li>React.js</li>
+            <li>Next.js</li>
+          </ul>
+          <p>Language Skill</p>
+          <ul>
+            <li>Mandarin</li>
+            <li>English</li>
+            <li>Japanese</li>
+            <li>Spanish</li>
+          </ul>
+          <p>Other Skills</p>
+          <ul>
+            <li>MySql</li>
+            <li>Node.js</li>
+            <li>React.js</li>
+            <li>Next.js</li>
+          </ul>
+        </div>
       </div>
     </div>
   );

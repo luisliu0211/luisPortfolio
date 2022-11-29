@@ -1,16 +1,16 @@
 .intro {
-  // width: 100%;
+  width: 100%;
   font-size: 1.5rem;
   height: 100vh;
   background-color: #c9d6df;
   display: flex;
   flex-direction: column;
-  align-items: flex-end;
+  align-items: center;
+  justify-content: center;
 
   .self {
     width: 100%;
     height: 100%;
-    padding: 10px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -22,6 +22,8 @@
     }
     .cover {
       margin-top: 5px;
+      width: 350px;
+      height: 350px;
       border-radius: 50%;
       overflow: hidden;
       img {
@@ -39,6 +41,47 @@
       display: flex;
       flex-direction: column;
       align-items: center;
+    }
+  }
+}
+@media screen and (max-width: 990px) {
+  .intro {
+    .self {
+      .title {
+      }
+      .cover {
+        width: 250px;
+        height: 250px;
+        img {
+        }
+      }
+      h4 {
+        width: 400px;
+      }
+      .scrollDown {
+      }
+    }
+  }
+}
+@media screen and (max-width: 768px) {
+  .intro {
+    .self {
+      .title {
+        font-size: 2rem;
+      }
+      .cover {
+        width: 200px;
+        height: 200px;
+        img {
+        }
+      }
+      h4 {
+        width: 300px;
+        font-size: 1rem;
+      }
+      .scrollDown {
+        font-size: 1rem;
+      }
     }
   }
 }

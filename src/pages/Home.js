@@ -8,12 +8,10 @@ import Aboutme from '../component/Aboutme';
 function Home() {
   return (
     <>
-      <div className="">
-        <Intro id=""></Intro>
-        <Aboutme id=""></Aboutme>
-        <Portfolio id=""></Portfolio>
-        <Skills id=""></Skills>
-      </div>
+      <Intro />
+      <Aboutme />
+      <Portfolio />
+      <Skills />
     </>
   );
 }
