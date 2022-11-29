@@ -1,8 +1,8 @@
 {
-  "name": "profolio",
+  "name": "luisprofolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://luisPortfolio.github.io",
+  "homepage": "https://luisliu0211.github.io/luisPortfolio",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
@@ -24,9 +24,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy":"npm run build",
-    "deploy":"gh-pages -b master -d build"
-
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
