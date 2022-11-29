@@ -7,7 +7,7 @@ import Offcanvas from 'react-bootstrap/Offcanvas';
 import { HiChevronRight } from 'react-icons/hi';
 import ScrollToTopButton from './ScrollToTopButton';
 import ScrollToBottomButton from './ScrollToBottomButton';
-import ScrollToTop from './ScrollToTop';
+
 function Header() {
   const [isOpen, setOpen] = useState(false);
   const [isDrop1, setDrop1] = useState(false);

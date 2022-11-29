@@ -10,15 +10,13 @@ import NotFound from './pages/NotFound';
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
-        <Header />
-        <ScrollToTop />
-        <Routes>
-          <Route exact path="/" element={<Home />}></Route>
-          <Route exact path="*" element={<NotFound />}></Route>
-        </Routes>
-        <Footer />
-      </BrowserRouter>
+      <Header />
+      <ScrollToTop />
+      <Routes>
+        <Route exact path="/" element={<Home />}></Route>
+        <Route exact path="*" element={<NotFound />}></Route>
+      </Routes>
+      <Footer />
     </div>
   );
 }
