@@ -1,0 +1,126 @@
+.portfolio {
+  height: 100vh;
+  font-size: 1.5rem;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #c9d6df;
+  align-items: flex-end;
+  .portfolioList {
+    width: 100%;
+    height: 100%;
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .title {
+      font-size: 3rem;
+      color: #52616b;
+      font-weight: 500;
+    }
+    .catagoryList {
+      list-style-type: none;
+      display: flex;
+      justify-content: space-around;
+
+      li {
+        color: #52616b;
+        margin: 10px;
+        padding: 10px;
+        border-radius: 15px;
+        &:hover {
+          color: white;
+          background-color: #52616b;
+          transition: 0.2s;
+        }
+      }
+    }
+    .cardList {
+      min-width: 50%;
+      display: grid;
+      margin: 0 auto;
+      height: 800px;
+      overflow-y: scroll;
+      justify-items: center;
+      align-items: flex-start;
+      grid-template-columns: repeat(3, 3fr);
+      .card {
+        .screenshot {
+          object-fit: fill;
+          border: 1px solid white;
+          height: 150px;
+          object-fit: contain;
+          border-radius: 15px;
+          overflow: hidden;
+
+          img {
+            width: 100%;
+            height: 100%;
+          }
+        }
+        margin: 5px;
+        max-width: 240px;
+        width: 90%;
+        height: 350px;
+        background-color: #97b1c2;
+        border: 1px solid #52616b;
+        border-radius: 15px;
+        padding: 5px;
+        box-shadow: 0 0 5px 5px white;
+        .description {
+          .descriptionTitle {
+            color: #52616b;
+            font-size: 1.2rem;
+            font-weight: 500;
+            margin-top: 5px;
+            height: 50px;
+            width: 100%;
+            text-align: center;
+            display: -webkit-box;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+            -webkit-line-clamp: 2;
+          }
+          .statusTag {
+            display: flex;
+            padding: 5px;
+            flex-wrap: wrap;
+            .tag {
+              font-size: 0.2rem;
+              border-radius: 8px;
+              background-color: #52616b;
+              padding: 7px;
+              margin: 2px;
+            }
+          }
+          .link {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            padding: 8px;
+            .test {
+              display: flex;
+              text-align: center;
+              font-size: 1.3rem;
+              .btn {
+                height: 20px;
+                line-height: 48px;
+              }
+              .linkIcon {
+                margin-top: 5px;
+                padding-top: 5px;
+                font-size: 30px;
+                font-weight: 500;
+              }
+            }
+          }
+        }
+        &:hover {
+          color: white;
+          // background-color: #52616b;
+          transition: 0.5s;
+        }
+      }
+    }
+  }
+}

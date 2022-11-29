@@ -1,0 +1,44 @@
+.intro {
+  // width: 100%;
+  font-size: 1.5rem;
+  height: 100vh;
+  background-color: #c9d6df;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+
+  .self {
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .title {
+      font-size: 3rem;
+      color: #52616b;
+      font-weight: 500s;
+    }
+    .cover {
+      margin-top: 5px;
+      border-radius: 50%;
+      overflow: hidden;
+      img {
+        width: 100%;
+        height: 100%;
+      }
+    }
+    h4 {
+      padding: 10px;
+      width: 500px;
+    }
+    .scrollDown {
+      font-weight: 700;
+      font-size: 1.5rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+}
