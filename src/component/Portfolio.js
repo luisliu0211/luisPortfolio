@@ -48,7 +48,7 @@ function Portfolio() {
                   className="test"
                   onClick={() => {
                     window.location.href =
-                      'https://github.com/luisliu0211/apple_monor';
+                      'https://github.com/AppleManorOfficial/applemanor';
                   }}
                 >
                   <div className="btn">Code</div>

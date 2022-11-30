@@ -11,7 +11,6 @@ function ScrollToBottomButton() {
       } else {
         setToBottom(false);
       }
-      // console.log(window.pageYOffset);
     });
   }, []);
   const scrollDown = () => {

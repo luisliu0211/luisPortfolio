@@ -1,6 +1,7 @@
 import React from 'react';
 import './Skills.scss';
 import { FiThumbsUp } from 'react-icons/fi';
+import { FaAngleDoubleUp } from 'react-icons/fa';
 
 function Skills() {
   return (
@@ -181,6 +182,15 @@ function Skills() {
             <li>React.js</li>
             <li>Next.js</li>
           </ul>
+          <FaAngleDoubleUp
+            onClick={() => {
+              window.scrollTo({
+                top: 0,
+                behavior: 'smooth',
+              });
+            }}
+            style={{ zIndex: '6', fontSize: '2.5rem', marginTop: '0%' }}
+          />
         </div>
       </div>
     </div>

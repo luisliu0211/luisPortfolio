@@ -32,7 +32,7 @@
       }
     }
     h4 {
-      padding: 10px;
+      padding: 5px;
       width: 500px;
     }
     .scrollDown {
@@ -41,6 +41,9 @@
       display: flex;
       flex-direction: column;
       align-items: center;
+      p {
+        margin: 0;
+      }
     }
   }
 }
@@ -59,6 +62,9 @@
         width: 400px;
       }
       .scrollDown {
+        p {
+          margin: 0;
+        }
       }
     }
   }
@@ -81,6 +87,9 @@
       }
       .scrollDown {
         font-size: 1rem;
+        p {
+          margin: 0;
+        }
       }
     }
   }

@@ -3,6 +3,7 @@ import logo from '../../src/images/websitelogo.png';
 import './Intro.scss';
 import { FaAngleDoubleDown } from 'react-icons/fa';
 import 'animate.css';
+// import ScrollToBottomButton from '../layout/ScrollToBottomButton';
 
 function Intro() {
   return (
@@ -20,7 +21,15 @@ function Intro() {
         </h4>
         <div className="scrollDown animate__animated animate__shakeY">
           <p>scroll down to read more!</p>
-          <FaAngleDoubleDown />
+          <FaAngleDoubleDown
+            onClick={() => {
+              window.scrollTo({
+                top: 3000,
+                behavior: 'smooth',
+              });
+            }}
+            style={{ zIndex: '6', fontSize: '2.5rem' }}
+          />
         </div>
       </div>
     </div>

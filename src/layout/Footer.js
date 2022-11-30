@@ -11,7 +11,7 @@ function footer() {
           <BsInstagram
             className="igIcon"
             onClick={() => {
-              window.location.href = 'https://zh-tw.facebook.com/AppleManorTW/';
+              window.location.href = 'https://www.instagram.com/xueru_liu/';
             }}
           />
 
@@ -24,7 +24,7 @@ function footer() {
           <BsGithub
             className="githubIcon"
             onClick={() => {
-              window.location.href = 'https://zh-tw.facebook.com/AppleManorTW/';
+              window.location.href = 'https://github.com/luisliu0211';
             }}
           />
         </div>
