@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/luisportfolio/static/css/main.5d88cea3.css",
-    "main.js": "/luisportfolio/static/js/main.f8249593.js",
+    "main.css": "/luisportfolio/static/css/main.ce8caff8.css",
+    "main.js": "/luisportfolio/static/js/main.093610a1.js",
     "static/media/applemanorProject.png": "/luisportfolio/static/media/applemanorProject.30873729443fb4f79728.png",
     "static/media/ohdogcatProject.png": "/luisportfolio/static/media/ohdogcatProject.32d4fd0b40b52b291f61.png",
     "static/media/personalPhoto.jpg": "/luisportfolio/static/media/personalPhoto.fd0b85e997862eee08ee.jpg",
@@ -9,11 +9,11 @@
     "static/media/portfolioWebsite.png": "/luisportfolio/static/media/portfolioWebsite.a419a35ddddd418a9d35.png",
     "static/media/websitelogo.png": "/luisportfolio/static/media/websitelogo.efc839a154066e02a125.png",
     "index.html": "/luisportfolio/index.html",
-    "main.5d88cea3.css.map": "/luisportfolio/static/css/main.5d88cea3.css.map",
-    "main.f8249593.js.map": "/luisportfolio/static/js/main.f8249593.js.map"
+    "main.ce8caff8.css.map": "/luisportfolio/static/css/main.ce8caff8.css.map",
+    "main.093610a1.js.map": "/luisportfolio/static/js/main.093610a1.js.map"
   },
   "entrypoints": [
-    "static/css/main.5d88cea3.css",
-    "static/js/main.f8249593.js"
+    "static/css/main.ce8caff8.css",
+    "static/js/main.093610a1.js"
   ]
 }
