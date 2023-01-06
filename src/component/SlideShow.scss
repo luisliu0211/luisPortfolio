@@ -1,0 +1,26 @@
+.slideShow {
+  background-color: #52616b;
+  height: 400px;
+  .carousel {
+    width: 500px;
+    margin: 0 auto;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+}
+
+@media screen and (max-width: 990px) {
+  .slideShow {
+    .carousel {
+      width: 400px;
+    }
+  }
+}
+@media screen and (max-width: 768px) {
+  .slideShow {
+    .carousel {
+      margin-top: 10px;
+      width: 300px;
+    }
+  }
+}

@@ -151,6 +151,31 @@ function Portfolio() {
               </div>
             </div>
           </div>
+          <div className="card">
+            <div className="screenshot">
+              <img alt="" src={project_MyPortfolio}></img>
+            </div>
+            <div className="description">
+              <div className="descriptionTitle">codesandbox practice</div>
+              <div className="statusTag">
+                <div className="tag">更新中</div>
+                <div className="tag">react.js</div>
+                <div className="tag">html</div>
+              </div>
+              <div className="link">
+                <div
+                  className="test"
+                  onClick={() => {
+                    window.location.href =
+                      'https://codesandbox.io/dashboard/recent?workspace=039af4ad-d445-43cd-83cf-b81b7250ddae';
+                  }}
+                >
+                  <div className="btn">codesandbox Demo</div>
+                  <FiArrowRight className="linkIcon" />
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>

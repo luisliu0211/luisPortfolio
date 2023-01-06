@@ -24,7 +24,7 @@ function Intro() {
           <FaAngleDoubleDown
             onClick={() => {
               window.scrollTo({
-                top: 3000,
+                top: 3500,
                 behavior: 'smooth',
               });
             }}
