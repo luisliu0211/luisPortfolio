@@ -1,22 +1,35 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './Header.scss';
 import { IoIosArrowBack } from 'react-icons/io';
-import { useState } from 'react';
+import { useState, useRef } from 'react';
 import Offcanvas from 'react-bootstrap/Offcanvas';
+import { FaAngleDoubleDown } from 'react-icons/fa';
+import { FaAngleDoubleUp } from 'react-icons/fa';
 
-import ScrollToTopButton from './ScrollToTopButton';
-import ScrollToBottomButton from './ScrollToBottomButton';
 function Header() {
   const [isOpen, setOpen] = useState(false);
-  const [isDrop1, setDrop1] = useState(false);
-  const [isDrop2, setDrop2] = useState(false);
+
+  const downicon = useRef(null);
+  const upicon = useRef(null);
+
+  const moveit = (way) => {
+    if (way.current.children[0].id === 'down') {
+      window.scrollTo({
+        top: 3500,
+        behavior: 'smooth',
+      });
+    } else {
+      window.scrollTo({
+        top: 0,
+        behavior: 'smooth',
+      });
+    }
+  };
   const openHandle = () => {
     if (isOpen === false) {
       setOpen(true);
     } else {
       setOpen(false);
-      setDrop1(true);
-      setDrop2(true);
     }
   };
   const handleClose = () => setOpen(false);
@@ -55,8 +68,43 @@ function Header() {
           onClick={() => openHandle()}
           className={isOpen ? '' : 'nextIcon'}
         />
-        <ScrollToTopButton className="up" />
-        <ScrollToBottomButton className="down" />
+        <div ref={downicon}>
+          <FaAngleDoubleDown
+            onClick={() => {
+              moveit(downicon);
+            }}
+            id="down"
+            style={{
+              borderRadius: '15px',
+              color: 'white',
+              padding: '5px',
+              fontSize: '4rem',
+              position: 'fixed',
+              top: '92vh',
+              left: '10px',
+              zIndex: '5',
+            }}
+          />
+        </div>
+
+        <div ref={upicon}>
+          <FaAngleDoubleUp
+            onClick={() => {
+              moveit(upicon);
+            }}
+            id="up"
+            style={{
+              borderRadius: '15px',
+              color: 'white',
+              padding: '5px',
+              fontSize: '4rem',
+              position: 'fixed',
+              top: '0vh',
+              left: '10px',
+              zIndex: '5',
+            }}
+          />
+        </div>
       </div>
     </>
   );
